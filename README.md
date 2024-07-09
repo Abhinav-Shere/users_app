@@ -1,24 +1,17 @@
-# README
+# User Management API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby on Rails application that provides an API to manage users and filter them based on campaign names present in their `campaigns_list`. The application uses a MySQL database and can be deployed to an EC2 instance.
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+- List all users
+- Add new user
+- Filter users by campaign names
 
-* System dependencies
+## Requirements
 
-* Configuration
+- Ruby 3.0+
+- Rails 6.1+
+- MySQL 8.0+
+- AWS Account (for EC2 deployment)
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
